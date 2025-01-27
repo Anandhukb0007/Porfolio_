@@ -1,0 +1,90 @@
+.page-3 {
+  width: 100vw;
+  
+  height: 140vh;
+}
+
+.education {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  height: 31rem;
+  margin-top: 2rem;
+  flex-direction: row;
+  margin-left: -5rem;
+}
+.education-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  background-color: #ffd700;
+  color: black;
+  font-family: "Bebas Neue", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+  border-radius: 1rem;
+  height: 17vh;
+}
+
+.education-content {
+  display: flex;
+  justify-content: center;
+  font-family: "Jersey 15", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  gap: 2rem;
+  font-size: 25px;
+  object-fit: contain;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.education-bar {
+  background-color: aliceblue;
+  width: 0.5rem;
+  height: 67vh;
+}
+
+.certification {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  height: 10rem;
+  flex-direction: row-reverse;
+  margin-right: 5.1rem;
+}
+.certification-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  background-color: #ffd700;
+  color: black;
+  font-family: "Bebas Neue", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  height: 4rem;
+}
+.certification-content {
+  display: flex;
+  justify-content: center;
+  font-family: "Jersey 15", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  gap: 2rem;
+  font-size: 25px;
+  object-fit: contain;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.certification-bar {
+  background-color: aliceblue;
+  width: 0.5rem;
+  height: 64vh;
+}
