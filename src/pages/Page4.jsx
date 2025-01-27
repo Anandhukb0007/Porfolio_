@@ -14,10 +14,18 @@ function Page4() {
               <h1>Spotify UI</h1>
             </div>
             <div className="project-image">
-                <img src={spotify} alt="Spotify UI" />
+              <img src={spotify} alt="Spotify UI" />
             </div>
             <div className="project-description">
-              <p>Spotify UI clone using React</p>
+              <p>
+                My Spotify UI front-end project is a responsive web application
+                built using React, designed to replicate Spotify's sleek and
+                intuitive interface. It features a home page for playlists and
+                recommendations, a search page to find songs and artists, and a
+                library section for managing user playlists. The app includes a
+                persistent music player with playback controls and incorporates
+                smooth animations to enhance the user experience.
+              </p>
             </div>
           </div>
         </div>
