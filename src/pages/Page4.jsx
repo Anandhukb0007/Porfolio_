@@ -26,13 +26,7 @@ function Page4() {
                   <p>
                     My Spotify UI front-end project is a responsive web
                     application built using React, designed to replicate
-                    Spotify's sleek and intuitive interface. It features a home
-                    page for playlists and recommendations, a search page to
-                    find songs and artists, and a library section for managing
-                    user playlists. The app includes a persistent music player
-                    with playback controls and incorporates smooth animations to
-                    enhance the user experience.
-                  </p>
+                    Spotify's sleek and intuitive interface.</p>
                 </div>
                 <div className="project-btn">
                   <button className="p-btn">VIEW CODE</button>
