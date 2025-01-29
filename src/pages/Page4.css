@@ -32,16 +32,26 @@
   background-color: #222020;
   border-radius: 1rem;
   padding: 1rem;
-  width: 25vw;
+  width: 50vw;
   gap: 1rem;
   box-shadow: 5px 7px 25px rgba(255, 255, 255, 0.5);
 }
 .project-title{
   color: #ffffff;
 }
+.p-lcolumn{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.project-details {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 .project-image {
   width: 25vw;
-  height: 35vh;
+  height: 40vh;
   border-radius: 1rem;
   overflow: hidden;
 }
@@ -56,4 +66,22 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
   color: aliceblue;
+}
+.project-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.p-btn{
+  background-color: #ffd700;
+  color: #222020;
+  font-family: "Bebas Neue", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: 0.5s;
 }
