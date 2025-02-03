@@ -1,14 +1,26 @@
 import "./Page3.css";
+import {motion} from "framer-motion";
+import {fadeIn} from "../variants"
 
 function Page3() {
   return (
     <div className="page-3">
       <div className="education">
-        <div className="education-header">
+        <motion.div
+        variants={fadeIn("right", 0.5)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.5}}
+        className="education-header">
           <h1>EDUCATION</h1>
-        </div>
+        </motion.div>
         <div className="education-bar"></div>
-        <div className="education-content">
+        <motion.div 
+        variants={fadeIn("left", 0.5)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.5}}
+        className="education-content">
           <div className="education-text">
             <h1>BCA</h1>
             <p>2020-2023</p>
@@ -24,14 +36,24 @@ function Page3() {
             <p>2018</p>
             <p>Mary Queen's H S</p>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div className="certification">
-        <div className="certification-header">
+        <motion.div
+        variants={fadeIn("left", 0.5)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.5}}
+        className="certification-header">
           <h1>CERTIFICATION</h1>
-        </div>
+        </motion.div>
         <div className="certification-bar"></div>
-        <div className="certification-content">
+        <motion.div 
+        variants={fadeIn("right", 0.5)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.5}}
+        className="certification-content">
           <div className="certification-text">
             <h1>Full Stack Development</h1>
             <p>2024</p>
@@ -52,17 +74,27 @@ function Page3() {
             <p>2021</p>
             <p>COURSERA</p>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       <div className="technologies">
-        <div className="technologies-header">
+        <motion.div
+        variants={fadeIn("up", 0.5)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.5}}
+        className="technologies-header">
           <h1>TECHNOLOGIES</h1>
-        </div>
+        </motion.div>
 
         <div className="technologies-content">
           <div className="icon-container">
-            <div className="icon">
+            <motion.div
+            variants={fadeIn("right", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.5}}
+            className="icon">
               <div className="icon-img">
                 <img
                   width="144"
@@ -74,8 +106,13 @@ function Page3() {
               <div className="icon-text">
                 <p className="icon-p">HTML</p>
               </div>
-            </div>
-            <div className="icon">
+            </motion.div>
+            <motion.div
+            variants={fadeIn("left", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.5}}
+            className="icon">
               <div className="icon-img">
                 <img
                   width="144"
@@ -87,8 +124,13 @@ function Page3() {
               <div className="icon-text">
                 <p className="icon-p">CSS</p>
               </div>
-            </div>
-            <div className="icon">
+            </motion.div>
+            <motion.div 
+            variants={fadeIn("right", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.5}}
+            className="icon">
               <div className="icon-img">
                 <img
                   width="144"
@@ -100,8 +142,13 @@ function Page3() {
               <div className="icon-text">
                 <p className="icon-p">JAVASCRIPT</p>
               </div>
-            </div>
-            <div className="icon">
+            </motion.div>
+            <motion.div
+            variants={fadeIn("left", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.5}}
+            className="icon">
               <div className="icon-img">
                 <img
                   width="144"
@@ -113,8 +160,13 @@ function Page3() {
               <div className="icon-text">
                 <p className="icon-p">REACT</p>
               </div>
-            </div>
-            <div className="icon">
+            </motion.div>
+            <motion.div
+            variants={fadeIn("right", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.5}}
+            className="icon">
               <div className="icon-img">
                 <img
                   width="144"
@@ -126,8 +178,13 @@ function Page3() {
               <div className="icon-text">
                 <p className="icon-p">NODEJS</p>
               </div>
-            </div>
-            <div className="icon">
+            </motion.div>
+            <motion.div 
+            variants={fadeIn("left", 0.5)}
+            initial="hidden" 
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.5}}
+            className="icon">
               <div className="icon-img">
                 <img
                   width="144"
@@ -139,8 +196,14 @@ function Page3() {
               <div className="icon-text">
                 <p className="icon-p">MONGODB</p>
               </div>
-            </div>
-            <div className="icon">
+            </motion.div>
+            <motion.div
+            variants={fadeIn("right", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.5}}
+
+            className="icon">
               <div className="icon-img">
                 <img
                   width="144"
@@ -152,8 +215,13 @@ function Page3() {
               <div className="icon-text">
                 <p className="icon-p">GIT</p>
               </div>
-            </div>
-            <div className="icon">
+            </motion.div>
+            <motion.div
+            variants={fadeIn("left", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.5}}
+            className="icon">
               <div className="icon-img">
                 <img
                   width="144"
@@ -165,8 +233,13 @@ function Page3() {
               <div className="icon-text">
                 <p className="icon-p">GITHUB</p>
               </div>
-            </div>
-            <div className="icon">
+            </motion.div>
+            <motion.div
+            variants={fadeIn("right", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.5}}
+            className="icon">
               <div className="icon-img">
                 <img
                   width="144"
@@ -178,15 +251,20 @@ function Page3() {
               <div className="icon-text">
                 <p className="icon-p">BOOTSTRAP</p>
               </div>
-            </div>
-            <div className="icon">
+            </motion.div>
+            <motion.div
+            variants={fadeIn("left", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: false, amount: 0.5}}
+            className="icon">
               <div className="icon-img">
               <img width="100" height="100" src="https://img.icons8.com/ios/100/FFFFFF/express-js.png" alt="express-js"/>
               </div>
               <div className="icon-text">
                 <p className="icon-p">EXPRESSJS</p>
               </div>
-              </div>
+              </motion.div>
               
           </div>
         </div>
