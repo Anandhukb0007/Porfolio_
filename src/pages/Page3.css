@@ -1,6 +1,6 @@
 .page-3 {
   width: 100vw;
-  height: 150vh;
+  
   overflow: hidden;
 }
 
@@ -87,4 +87,71 @@
   background-color: aliceblue;
   width: 0.5rem;
   height: 64vh;
+}
+.technologies {
+  display: flex;
+  margin-top: 2rem;
+  color: white;
+  flex-direction: column;
+
+  justify-content: center;
+  margin-top: 10rem;
+}
+.technologies-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.technologies-content {
+  display: flex;
+  justify-content: center;
+  font-family: "Jersey 15", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  gap: 2rem;
+  font-size: 25px;
+  object-fit: contain;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon img {
+  width: 5rem;
+  height: 5rem;
+}
+.icon-img{
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+}
+.icon-text{
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  
+}
+.icon-p {
+  font-family: "Jersey 15", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 25px;
+  object-fit: contain;
+  
 }
