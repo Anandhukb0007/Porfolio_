@@ -39,7 +39,7 @@ function Page4() {
           </div>
           <div className="project1">
             <div className="project-title">
-              <h1>Spotify UI</h1>
+              <h1>TODO APP</h1>
             </div>
             <div className="project-details">
               <div className="p-lcolumn">
