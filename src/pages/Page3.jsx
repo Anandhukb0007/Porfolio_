@@ -7,10 +7,7 @@ function Page3() {
     <div className="page-3">
       <div className="education">
         <motion.div
-          variants={fadeIn("right", 0.3)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.3 }}
+          
           className="education-header"
         >
           <h1>EDUCATION</h1>
@@ -42,10 +39,7 @@ function Page3() {
       </div>
       <div className="certification">
         <motion.div
-          variants={fadeIn("left", 0.3)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.3 }}
+          
           className="certification-header"
         >
           <h1>CERTIFICATION</h1>
